@@ -1,0 +1,38 @@
+{
+  "name": "QuickBite — Food Delivery",
+  "short_name": "QuickBite",
+  "description": "Premium food delivery app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c0f",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "shopping", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Browse Menu",
+      "url": "/",
+      "description": "Browse our menu"
+    },
+    {
+      "name": "My Orders",
+      "url": "/orders",
+      "description": "Track your orders"
+    }
+  ]
+}
